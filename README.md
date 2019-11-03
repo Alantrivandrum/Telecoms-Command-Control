@@ -1,13 +1,12 @@
 # Telecoms-Command-Control
 
 
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
+
 
 
 <p>
 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 
@@ -19,9 +18,7 @@
 <p>
 <strong>Name :  Alan Abraham</strong>
 </p>
-<p>
-<strong>Student Number: 18322576</strong>
-</p>
+
 <p>
 <strong>Lab Group: A2</strong>
 </p>
@@ -94,7 +91,7 @@ This function initialises the C&C server and it also throws exceptions. When the
 This is the main method of the C&C server. This method initialises the terminal for the C&C server within a try-catch statement. When the program ends the main also prints out “Program Completed”.
 </p>
 <p>
-<img src="images/Telecoms-Report5.png" width="" alt="alt_text" title="image_tooltip">
+
 
 </p>
 <p>
@@ -130,10 +127,7 @@ This is the main method of the broker class.This method initialises the terminal
 <p>
 
 
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report9.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-<img src="images/Telecoms-Report9.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
@@ -145,7 +139,6 @@ The worker class does work and replies to the broker by sending acknowledgements
 <p>
 
 
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report10.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 
@@ -173,7 +166,6 @@ This function initialises the worker class and it also throws exceptions. When t
 <p>
 
 
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report13.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 
