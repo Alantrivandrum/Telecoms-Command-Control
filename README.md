@@ -1,23 +1,5 @@
 # Telecoms-Command-Control
 
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 15.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-<a href="#gdcalert6">alert6</a>
-<a href="#gdcalert7">alert7</a>
-<a href="#gdcalert8">alert8</a>
-<a href="#gdcalert9">alert9</a>
-<a href="#gdcalert10">alert10</a>
-<a href="#gdcalert11">alert11</a>
-<a href="#gdcalert12">alert12</a>
-<a href="#gdcalert13">alert13</a>
-<a href="#gdcalert14">alert14</a>
-<a href="#gdcalert15">alert15</a>
 
 <p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
 
@@ -28,7 +10,7 @@
 <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="images/Telecoms-Report0.png" width="" alt="alt_text" title="image_tooltip">
+
 
 </p>
 <p>
@@ -69,12 +51,6 @@ The aim of this assignment was to create a command and control protocol which ha
 </p>
 <p>
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/Telecoms-Report1.png" width="" alt="alt_text" title="image_tooltip">
-
 </p>
 <p>
 <strong><em>Implementation</em></strong>
@@ -95,30 +71,12 @@ The C&C Server stands for the Command and Control Server and in this case I cons
 The class also contains the constructor for the C&C Server terminal and initialises this terminal in the main.
 </p>
 <p>
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/Telecoms-Report2.png" width="" alt="alt_text" title="image_tooltip">
-
-</p>
-<p>
-Above: Image of GUI for C&C Server
-</p>
-<p>
 <em>OnReceipt(Packet):</em>
 </p>
 <p>
 This function takes a packet that the C&C server receives as a parameter and sends a response to the broker. The response is sent in a packet to the broker and its “OK” technically it’s a form of acknowledgment from the server to the broker that tells the broker that the server did receive the message.
 </p>
 <p>
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/Telecoms-Report3.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
@@ -128,13 +86,6 @@ This function takes a packet that the C&C server receives as a parameter and sen
 This function initialises the C&C server and it also throws exceptions. When the user types in the terminal it takes input and sends it to the broker as a packet and then it prints out that the packet has been sent successfully if it is received by the broker.
 </p>
 <p>
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report4.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/Telecoms-Report4.png" width="" alt="alt_text" title="image_tooltip">
- 
 </p>
 <p>
 <em>Main()</em>
@@ -143,11 +94,6 @@ This function initialises the C&C server and it also throws exceptions. When the
 This is the main method of the C&C server. This method initialises the terminal for the C&C server within a try-catch statement. When the program ends the main also prints out “Program Completed”.
 </p>
 <p>
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report5.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 <img src="images/Telecoms-Report5.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
@@ -158,13 +104,6 @@ This is the main method of the C&C server. This method initialises the terminal 
 The broker class receives messages from the server and sends those messages to the worker  classes and the workers reply with their availability, port number and worker name. The broker class contains the methods OnReceipt(),Start() and the Main method.
 </p>
 <p>
-
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report6.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/Telecoms-Report6.png" width="" alt="alt_text" title="image_tooltip">
-
 </p>
 <p>
 <em>OnReceipt(Packet)</em>
@@ -174,12 +113,6 @@ This function takes a packet that broker receives from the server as a parameter
 </p>
 <p>
 
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report7.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/Telecoms-Report7.png" width="" alt="alt_text" title="image_tooltip">
-
 </p>
 <p>
 <em>Start()</em>
@@ -187,15 +120,7 @@ This function takes a packet that broker receives from the server as a parameter
 <p>
 This function initialises the broker and it also throws exceptions. When the user types in the terminal it takes input and sends it to the workers as a packet and then it prints out that the packet has been sent successfully if it is received by the workers
 </p>
-<p>
 
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report8.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/Telecoms-Report8.png" width="" alt="alt_text" title="image_tooltip">
-.
-</p>
 <p>
 Main()
 </p>
@@ -223,13 +148,9 @@ The worker class does work and replies to the broker by sending acknowledgements
 <p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report10.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="images/Telecoms-Report10.png" width="" alt="alt_text" title="image_tooltip">
-     
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report11.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="images/Telecoms-Report11.png" width="" alt="alt_text" title="image_tooltip">
+
 
 </p>
 <p>
@@ -241,10 +162,6 @@ This function takes a packet that worker receives from the broker as a parameter
 <p>
 
 
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report12.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/Telecoms-Report12.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
@@ -259,7 +176,7 @@ This function initialises the worker class and it also throws exceptions. When t
 <p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report13.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="images/Telecoms-Report13.png" width="" alt="alt_text" title="image_tooltip">
+
 
 </p>
 <p>
@@ -274,10 +191,7 @@ This is the main method of the worker class.This method initialises the terminal
 <p>
 
 
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Telecoms-Report14.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-<img src="images/Telecoms-Report14.png" width="" alt="alt_text" title="image_tooltip">
 
 </p>
 <p>
